@@ -1,0 +1,19 @@
+﻿  stdafx.cpp
+  Lab1.cpp
+h:\lab1\lab1\lab1.cpp(160): error C2664: "BOOL TextOutW(HDC,int,int,LPCWSTR,int)": невозможно преобразовать аргумент 4 из "char [1]" в "LPCWSTR"
+  h:\lab1\lab1\lab1.cpp(160): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+h:\lab1\lab1\lab1.cpp(163): error C2664: "BOOL TextOutW(HDC,int,int,LPCWSTR,int)": невозможно преобразовать аргумент 4 из "char [4]" в "LPCWSTR"
+  h:\lab1\lab1\lab1.cpp(163): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+h:\lab1\lab1\lab1.cpp(167): error C2664: "BOOL TextOutW(HDC,int,int,LPCWSTR,int)": невозможно преобразовать аргумент 4 из "char [4]" в "LPCWSTR"
+  h:\lab1\lab1\lab1.cpp(167): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  module1.cpp
+h:\lab1\lab1\module1.cpp(11): error C2664: "INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)": невозможно преобразовать аргумент 4 из "BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)" в "DLGPROC"
+  h:\lab1\lab1\module1.cpp(11): note: Конечному типу не соответствует ни одной функции с данным именем в области видимости
+h:\lab1\lab1\module1.cpp(23): error C2664: "UINT GetDlgItemTextW(HWND,int,LPWSTR,int)": невозможно преобразовать аргумент 3 из "char [1]" в "LPWSTR"
+  h:\lab1\lab1\module1.cpp(23): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  module2.cpp
+h:\lab1\lab1\module2.cpp(11): error C2664: "INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)": невозможно преобразовать аргумент 4 из "BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)" в "DLGPROC"
+  h:\lab1\lab1\module2.cpp(11): note: Конечному типу не соответствует ни одной функции с данным именем в области видимости
+h:\lab1\lab1\module2.cpp(37): error C2664: "BOOL SetDlgItemTextW(HWND,int,LPCWSTR)": невозможно преобразовать аргумент 3 из "char [4]" в "LPCWSTR"
+  h:\lab1\lab1\module2.cpp(37): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  Создание кода...

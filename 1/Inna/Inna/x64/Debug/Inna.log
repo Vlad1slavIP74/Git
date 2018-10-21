@@ -1,0 +1,14 @@
+﻿  Inna.cpp
+d:\vlad`oblya\porev\lab1\inna\inna\inna.cpp(166): error C2664: "BOOL TextOutW(HDC,int,int,LPCWSTR,int)": невозможно преобразовать аргумент 4 из "char *" в "LPCWSTR"
+  d:\vlad`oblya\porev\lab1\inna\inna\inna.cpp(166): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  module1.cpp
+d:\vlad`oblya\porev\lab1\inna\inna\module1.cpp(16): error C2664: "INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)": невозможно преобразовать аргумент 4 из "BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)" в "DLGPROC"
+  d:\vlad`oblya\porev\lab1\inna\inna\module1.cpp(16): note: Конечному типу не соответствует ни одной функции с данным именем в области видимости
+d:\vlad`oblya\porev\lab1\inna\inna\module1.cpp(27): error C3861: MyWork1_1: идентификатор не найден
+  module2.cpp
+d:\vlad`oblya\porev\lab1\inna\inna\module2.cpp(13): error C2664: "INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)": невозможно преобразовать аргумент 4 из "BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)" в "DLGPROC"
+  d:\vlad`oblya\porev\lab1\inna\inna\module2.cpp(13): note: Конечному типу не соответствует ни одной функции с данным именем в области видимости
+d:\vlad`oblya\porev\lab1\inna\inna\module2.cpp(31): warning C4244: =: преобразование "LRESULT" в "int", возможна потеря данных
+d:\vlad`oblya\porev\lab1\inna\inna\module2.cpp(32): warning C4311: приведение типов: усечение указателя из "char *" в "long"
+d:\vlad`oblya\porev\lab1\inna\inna\module2.cpp(32): warning C4302: приведение типов: усечение из "char *" к "long"
+  Создание кода...

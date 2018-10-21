@@ -1,0 +1,5 @@
+#pragma once
+
+#define IDD_DIALOG1		101
+#define IDD_DIALOG2		104
+#define IDC_BUTTON1		1001
